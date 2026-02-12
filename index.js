@@ -3,6 +3,6 @@ import router from "./routes/enquiryRoutes.js";
 
 const app = express();
 app.use(express.json());
-app.use("",router);
+app.use("/Api",router);
 
 export default app;
